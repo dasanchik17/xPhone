@@ -186,3 +186,40 @@ html {
   padding-left: 1.5rem;
   padding-top: 20px;
 }
+
+.accessories {
+  min-width: 800px;
+  margin: 0 auto;
+  width: 800px;
+  margin-top: 100px;
+}
+
+.accessories__heading {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 1.5;
+  letter-spacing: 0;
+  padding-left: 83px;
+}
+
+.accessories__container {
+  display: flex;
+  justify-content: center;
+  gap: 124px;
+  flex-wrap: wrap;
+  padding-top: 123px;
+  margin-bottom: 200px;
+}
+
+.accessory-card {
+  max-width: 300px;
+  text-align: center;
+}
+
+.accessory-card h3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0;
+  padding-bottom: 17px;
+}
