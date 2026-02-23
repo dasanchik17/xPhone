@@ -25,6 +25,10 @@ a:hover {
 
 /* Common */
 
+.div {
+  box-sizing: border-box;
+}
+
 aside,
 nav,
 footer,
