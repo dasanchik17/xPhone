@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   font-family: "Manrope", sans-serif;
 }
@@ -63,6 +67,7 @@
   align-items: center;
   gap: 20px;
   margin-top: 157px;
+  margin-bottom: 243px;
 }
 
 .promo__heading {
@@ -124,4 +129,60 @@
 
 .promo__content {
   flex: 1;
+}
+.features {
+  width: 800px;
+  height: 500px;
+  min-width: 800px;
+  margin: 0 auto;
+}
+
+.features__heading {
+  padding-left: 83px;
+}
+
+.features__heading h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 1.5;
+  letter-spacing: 0;
+}
+
+.features__container {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  padding-top: 102px;
+}
+
+.features__container-img img {
+  width: 600px;
+  height: 296px;
+  object-fit: cover;
+  display: block;
+  object-fit: contain;
+  padding-left: 39px;
+}
+
+.features_description {
+  max-width: 390px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0;
+  padding-top: 28px;
+}
+
+.features_description-list ol {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0;
+  padding-top: 28px;
+  list-style: disc;
+  padding-left: 1.5rem;
+  padding-top: 20px;
 }
