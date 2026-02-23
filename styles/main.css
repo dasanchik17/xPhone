@@ -135,6 +135,10 @@ html {
   height: 500px;
   min-width: 800px;
   margin: 0 auto;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .features__heading {
@@ -192,6 +196,10 @@ html {
   margin: 0 auto;
   width: 800px;
   margin-top: 100px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .accessories__heading {
@@ -222,4 +230,76 @@ html {
   line-height: 1.5;
   letter-spacing: 0;
   padding-bottom: 17px;
+}
+
+.location {
+  min-width: 800px;
+  margin: 0 auto;
+  width: 800px;
+  margin-top: 100px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.location h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  line-height: 1;
+  font-size: 36px;
+  letter-spacing: 0;
+  color: #252525;
+  padding-left: 83px;
+}
+
+.location__container {
+  padding-top: 85px;
+}
+
+.location__img {
+  width: 596px;
+  height: 330px;
+  margin: 0 auto;
+}
+
+.location__img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.location__container__text {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  line-height: 1;
+  font-size: 16px;
+  letter-spacing: 0;
+  color: #252525;
+  text-align: center;
+}
+
+.location__img {
+  background-image: url(../src/vecteezy_doodle-freehand-drawing-of-world-map_14219858_79\ 1.png);
+}
+
+.location__container__button {
+  display: block;
+  margin: 0 auto;
+  width: 269px;
+  height: 58px;
+  background-color: #222223e5;
+  text-align: center;
+  border-radius: 26px;
+  opacity: 90%;
+  line-height: 58px;
+  margin-top: -100px;
+  margin-bottom: 200px;
+  transition: all 0.3s ease;
+  color: white;
+}
+
+.location__container__button:hover {
+  color: #222223e5;
+  background-color: cornflowerblue;
 }
